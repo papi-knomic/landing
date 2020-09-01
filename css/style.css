@@ -12,7 +12,7 @@ html, body{
     height: 100%;
     width: 100%;
     margin: auto;
-    background: lightblue no-repeat 50% 50%;
+    background-image: url("image/3.jpg");
     display: table;
     top: 0;
     background-size: cover;
@@ -53,17 +53,39 @@ html, body{
     border: solid #fff;
 }
 
-.intro{
-    animation-name: animation;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;    
-    animation-play-state: running;
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: white 2px;
+    color: white;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+#left{
+    float: left;
 }
 
-@keyframes animation{
-    25.0%  {background-color: yellow ;}
-    50.0%  {background-color:orange;}
-    75.0%  {background-color: green;}
-
+#right{
+    float: right;
+    padding-top: 15px;
+}
+#myTopnav{
+    width: 100%;
+    display: table-row;
 }
