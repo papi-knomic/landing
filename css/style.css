@@ -67,6 +67,8 @@ html, body{
     font-size: 17px;
     border: white 2px;
     color: white;
+    border: 1px solid white;
+
   }
   
   /* Change the color of links on hover */
