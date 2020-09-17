@@ -23,8 +23,10 @@ html, body{
 .intro .inner{
     display: table-cell;
     vertical-align: middle;
-    width: 100%;
+    width: 50%;
     max-width: none;
+    margin: 0 auto;
+    float: left;
 }
 
 .content{
@@ -38,19 +40,21 @@ html, body{
     font-size: 500%;
 }
 
+
 .btn{
-    border-radius: 9px;
     font-family: 'Oswald', sans-serif;
-    color: #036a81;
+    color: white;
+    background-color: black;
     font-size: 135%;
     padding: 10px 20px;
-    border: solid #036a81 3px;
+    border: solid white 1px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .btn:hover{
-    color: white;
+    background-color: white;
+    color: #751427;
     border: solid #fff;
 }
 
@@ -97,6 +101,11 @@ html, body{
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    
+    .content h1{
+        font-family: 'Raleway', sans-serif;
+        color: #751427;
+        text-shadow: 0px 0px 300px #000;
+        font-size: 250%;
+    }
 
   }
