@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+
+
 html, body{
     margin: 0;
     padding: 0;
@@ -112,11 +114,7 @@ html, body{
     .intro{
         height: 100%;
         width: 100%;
-        background-image: url("image/2.jpeg");
         top: 0;
-        background-size: 50% 100%;
-        background-repeat: no-repeat;
-        background-position: right;
     }
     .intro .inner{
         width: 100%;
