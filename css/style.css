@@ -106,13 +106,10 @@ body{
 @media screen and (max-width: 1080px) {
 
     .intro .inner{
-        padding-left: 10px ;
+        padding-left: 15px ;
     }
     
     .content h1{
-        font-family: 'Raleway', sans-serif;
-        color: black;
-        text-shadow: 0px 0px 300px #000;
         font-size: 300%;
     }
 
